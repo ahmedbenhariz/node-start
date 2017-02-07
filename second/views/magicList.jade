@@ -1,0 +1,6 @@
+extend layout
+block content
+  for magic,i in item
+    li 
+      a(href="/magic/"+(i+1))= magic.name
+      
